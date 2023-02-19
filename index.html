@@ -12,7 +12,9 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/section-hero.css" />
 
     <title>Portal de Notícias Orbi</title>
   </head>
@@ -20,43 +22,40 @@
     <header class="header">
       <div class="container-header">
         <div class="container-buttons-header">
+          <div class="menu-toggle">
+            <img src="./styles/assets/icon-menu.svg" alt="" />
+          </div>
 
-        
-        <div class="menu-toggle">
-            <img src="./styles/assests/icon-menu.svg" alt="">
+          <div class="button">
+            <img
+              src="./styles/assets/icon-jornal.svg"
+              alt="icone de um jornal"
+            />
+            <p>Jornal</p>
+          </div>
+          <div class="button">
+            <img
+              src="./styles/assets/icon-newsletter.svg"
+              alt="icone de uma carta representando a newslatter"
+            />
+            <p>Newslatter</p>
+          </div>
         </div>
-
-        <div class="button">
-          <img
-            src="./styles/assests/icon-jornal.svg"
-            alt="icone de um jornal"
-          />
-          <p>Jornal</p>
-        </div>
-        <div class="button">
-          <img
-            src="./styles/assests/icon-newsletter.svg"
-            alt="icone de uma carta representando a newslatter"
-          />
-          <p>Newslatter</p>
-        </div>
-    </div>
         <div class="logo">
           <img
-            src="./styles/assests/icon-logo.svg"
+            src="./styles/assets/icon-logo.svg"
             alt="Logo da empresa Orbi, escrito na cor preta"
           />
         </div>
-        
-        <div class="container-button-search">
 
-            <div class="button button-search">
-              <input type="search" />
-              <img
-                src="./styles/assests/icon-search.svg"
-                alt="icone de uma luta da barra de pesquisa"
-              />
-            </div>
+        <div class="container-button-search">
+          <div class="button button-search">
+            <input type="search" />
+            <img
+              src="./styles/assets/icon-search.svg"
+              alt="icone de uma luta da barra de pesquisa"
+            />
+          </div>
         </div>
       </div>
 
@@ -76,32 +75,34 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
+    <main class="container-main">
+      <section class="section-hero">
         <div class="container-banner">
           <div class="banner-home">
-            <img src="" alt="" />
-          </div>
+            <div class="box-text-banner">
+              <div class="title-text-banner">
+                <p>ORA, BOLAS!</p>
+                <h1>Copa, Seleção e um torcedor reformado</h1>
+              </div>
 
-          <div>
-            <p>ORA, BOLAS!</p>
-            <h1>Copa, Seleção e um torcedor reformado</h1>
-
-            <div class="card-text-banner">
-              <span>ORA, BOLAS!</span>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-            </div>
-            <div class="card-text-banner">
-              <span>ORA, BOLAS!</span>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-            </div>
-            <div class="card-text-banner">
-              <span>ORA, BOLAS!</span>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-            </div>
-            <div class="card-text-banner">
-              <span>ORA, BOLAS!</span>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <div class="container-cards-text-banner">
+                <div class="card-text-banner">
+                  <span>ORA, BOLAS!</span>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="card-text-banner">
+                  <span>ORA, BOLAS!</span>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="card-text-banner">
+                  <span>ORA, BOLAS!</span>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="card-text-banner">
+                  <span>ORA, BOLAS!</span>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
