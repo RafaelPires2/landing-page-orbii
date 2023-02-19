@@ -114,9 +114,21 @@
   gap: 10px;
   height: 260px; 
 }
+.box-category1 span, .box-category2 span{
+  color: var(--background-secondary);
+}
+.box-category1 p, .box-category2 p{
+  font-size: 14px;
+}
 .card-category{
   display: flex;
   gap: 10px;
+}
+.card-category p{
+  font-size: 14px;
+}
+.card-category span{
+  color: var(--background-secondary);
 }
 
 .container-loto{
