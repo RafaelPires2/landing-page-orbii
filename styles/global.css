@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --background-default: #FAFAFA;
+  --background-primary: #19191A;
+  --background-secondary: #FF0A6B;
+  --background-ads-footer: #ECECEC;
+  --color-button: #FFFFFF;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+a, li, ul, button{
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
