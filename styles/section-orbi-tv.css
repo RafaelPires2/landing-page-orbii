@@ -1,0 +1,101 @@
+.section-orbi-tv{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--background-primary);
+    margin-top: 20px;
+}
+
+.header-orbi-tv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    width: 100%;
+   color: white;
+   margin-block: 25px;
+}
+
+.container-videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    color: white;   
+}
+
+.container-videos img{
+    background-image: rgba(35,31,32,0 );
+    background-image: linear-gradient(180deg, 
+    rgba(35,31,32,0 ) 0.00%, 
+    rgba(35,31,32,0.95 ) 100.00%);
+}
+
+
+.card-video p{
+    margin-top: 10px;
+    width: 350px;
+    font-size: 14px;
+}
+
+.container-logo-orbi-tv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-logo-orbi-tv img{
+    width: 60px;
+    height: 65px;
+}
+
+.container-logo-orbi-tv h1{
+    font-size: 22px;
+}
+
+.container-logo-orbi-tv span{
+    color: var(--background-secondary);
+}
+
+.box-button-orbi-tv{
+    width: 200px;
+    height: 50px;
+}
+.button-orbi-tv1{
+    width: 88px;
+    height: 34px;
+    background-color: var(--background-secondary);
+    border: none;
+    border-radius: 20px;
+}
+
+.button-orbi-tv2{
+    width: 88px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid #726F73;
+    border-radius: 20px;
+}
+
+.box-subscribe{
+    width: 300px;
+    display: flex;
+    color: white;
+    gap: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 430px;
+    left: 30px;
+}
+
+.box-subscribe p{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box-subscribe img{
+    width: 31px;
+    height: 22px;
+}
