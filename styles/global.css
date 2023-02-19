@@ -20,3 +20,21 @@ a, li, ul, button{
   list-style: none;
   color: inherit;
 }
+
+.wrapper{
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.general-box{
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
