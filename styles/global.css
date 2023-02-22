@@ -31,6 +31,7 @@ a, li, ul, button{
   flex-direction: column;
   align-items: center;
   position: relative;
+
 }
 
 .general-box{
