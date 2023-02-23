@@ -1,0 +1,19 @@
+.container-footer{
+    width: 100%;
+    background-color: var(--background-ads-footer);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 45px;
+}
+.container-nav-footer ul{
+    display: flex;
+    gap: 25px;
+    color: #231F20;
+    margin-bottom: 75px;
+}
+.logo-footer{
+    margin-top: 75px;
+}
