@@ -1,0 +1,59 @@
+.section-orbi-videos {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-orbi-videos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.header-orbi-videos ul{
+    display: flex;
+    gap: 25px;
+}
+.header-orbi-videos a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;   
+}
+.box-videos-colunm-a{
+    width: 60%;
+    margin-top: 25px;
+}
+.container-orbi-videos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box-videos-colunm-b{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+.title-orbi-videos{
+    font-size: 16px;
+    color: white;
+}
+.content-orbi-videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   gap: 10px;
+   margin-top: 20px;
+}
+.content-orbi-videos img{
+    border-radius: 15px;
+    width: 300px;
+}
