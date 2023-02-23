@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site de noticias" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap"
@@ -27,7 +28,7 @@
     <link rel="stylesheet" href="./styles/section-group-b.css" />
     <link rel="stylesheet" href="./styles/section-group-c.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
-    
+
     <title>Portal de Notícias Orbi</title>
   </head>
   <body>
@@ -62,7 +63,14 @@
 
         <div class="container-button-search">
           <div class="button button-search">
-            <input type="search" />
+            <label for="search">
+              <input
+                type="search"
+                name="search"
+                placeholder="Pesquise aqui...."
+                maxlength="200"
+              />
+            </label>
             <img
               src="./styles/assets/icon-search.svg"
               alt="icone de uma luta da barra de pesquisa"
@@ -698,32 +706,30 @@
           </div>
 
           <div class="container-orbi-videos">
-
             <div class="box-videos-colunm-a">
               <img src="./styles/assets/img4.svg" alt="" />
             </div>
-            
-          <div class="box-videos-colunm-b">
-            <div class="title-orbi-videos">
-              <h2>VÍDEOS RELACIONADOS</h2>
-            </div>
 
-            <div class="content-orbi-videos">
-              <div>
-                <img src="./styles/assets/img8.svg" alt="" />
+            <div class="box-videos-colunm-b">
+              <div class="title-orbi-videos">
+                <h2>VÍDEOS RELACIONADOS</h2>
               </div>
-              <div>
-                <img src="./styles/assets/img9.svg" alt="" />
-              </div>
-              <div>
-                <img src="./styles/assets/img10.svg" alt="" />
-              </div>
-              <div>
-                <img src="./styles/assets/img11.svg" alt="" />
+
+              <div class="content-orbi-videos">
+                <div>
+                  <img src="./styles/assets/img8.svg" alt="" />
+                </div>
+                <div>
+                  <img src="./styles/assets/img9.svg" alt="" />
+                </div>
+                <div>
+                  <img src="./styles/assets/img10.svg" alt="" />
+                </div>
+                <div>
+                  <img src="./styles/assets/img11.svg" alt="" />
+                </div>
               </div>
             </div>
-           
-          </div>
           </div>
         </div>
       </section>
@@ -785,22 +791,26 @@
                 </div>
               </div>
             </div>
- 
+
             <div class="box-copa">
-                <img class="logo-copa2" src="./styles/assets/icon-copa.svg" alt="">
-                <h2><span>&lsaquo;</span> Grupo A <span>&rsaquo;</span></h2>
+              <img
+                class="logo-copa2"
+                src="./styles/assets/icon-copa.svg"
+                alt=""
+              />
+              <h2><span>&lsaquo;</span> Grupo A <span>&rsaquo;</span></h2>
 
-                <div class="game-result">
-                  <p>Qat</p>
-                  <img src="./styles/assets/flag-catar.svg" alt="">
-                  <p>1</p>
-                  <span>x</span>
-                  <p>1</p>
-                  <img src="./styles/assets/flag-equa.svg" alt="">
-                  <p>Equ</p>
-                </div>
+              <div class="game-result">
+                <p>Qat</p>
+                <img src="./styles/assets/flag-catar.svg" alt="" />
+                <p>1</p>
+                <span>x</span>
+                <p>1</p>
+                <img src="./styles/assets/flag-equa.svg" alt="" />
+                <p>Equ</p>
+              </div>
 
-                <h4>18/11/2022 - 20:00</h4>
+              <h4>18/11/2022 - 20:00</h4>
             </div>
           </div>
         </div>
@@ -808,33 +818,31 @@
     </main>
 
     <footer class="container-footer">
-        <div class="logo logo-footer">
-          <img src="./styles/assets/logo.svg" alt="">
-        </div>
-        <div>
-          <img src="./styles/assets/icon-insta.svg" alt="">
-          <img src="./styles/assets/icon-face.svg" alt="">
-          <img src="./styles/assets/icon-youtube.svg" alt="">
-          <img src="./styles/assets/icon-tiktok.svg" alt="">
-        </div>
+      <div class="logo logo-footer">
+        <img src="./styles/assets/logo.svg" alt="" />
+      </div>
+      <div>
+        <img src="./styles/assets/icon-insta.svg" alt="" />
+        <img src="./styles/assets/icon-face.svg" alt="" />
+        <img src="./styles/assets/icon-youtube.svg" alt="" />
+        <img src="./styles/assets/icon-tiktok.svg" alt="" />
+      </div>
 
-
-        <nav class="container-nav-footer">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Cultura</a></li>
-            <li><a href="">Entretenimento</a></li>
-            <li><a href="">Música</a></li>
-            <li><a href="">Cinema</a></li>
-            <li><a href="">Jornal</a></li>
-            <li><a href="">Agenda</a></li>
-            <li><a href="">TV</a></li>
-            <li><a href="">Entretenimento</a></li>
-            <li><a href="">Música</a></li>
-            <li><a href="">Cinema</a></li>
-          </ul>
-        </nav>
-
+      <nav class="container-nav-footer">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Cultura</a></li>
+          <li><a href="">Entretenimento</a></li>
+          <li><a href="">Música</a></li>
+          <li><a href="">Cinema</a></li>
+          <li><a href="">Jornal</a></li>
+          <li><a href="">Agenda</a></li>
+          <li><a href="">TV</a></li>
+          <li><a href="">Entretenimento</a></li>
+          <li><a href="">Música</a></li>
+          <li><a href="">Cinema</a></li>
+        </ul>
+      </nav>
     </footer>
 
     <script
